@@ -1,0 +1,57 @@
+1. Commit
+--> jyare aapde koy changes kariye ane e changes ne aapde locally k pachhi remotelly save karva hoy to aapde commit no use karsu...
+<git commit -m "your message">
+
+2. git log
+--> jyare aapde commit karyu ane pachhi eni log history check karvi hoy tyare aapde git log command no....
+<git log>
+
+3. git status
+-->git status lakhvathi aapde je changes thaya hoy e show karse ema je red color ma hase te commit nahi thay hoy ane je green color ma hase e commited hase...
+<git status>
+
+4. git add ["file name" OR "." --> (. ma e folder ma raheli all file consider karse)] [stage concept]
+--> jyare aapde files ne stage karvi hoy means perticular file ne j commit karavi tyare aapde e file ne stage ma nakhine commit kari devani...
+<git add (file name or .)>
+
+5. git remote 
+--> jyare aapde command propt ne sidhu j github ni repo sathe connect karvu hoy tyare aano upyog thase..
+<git remote add "url name(any name u want)" "url">
+
+6.git remote -v
+--> remotely connect thay gayeli repo ne jova mate aa use thase..
+<git remote -v>
+
+7. git push
+--> je kay changes aapde karya hoy ene remotely push karva mate push command no use thase...
+<git push "url name" "branch name">
+
+8. git branch
+--> navi branch create karva mate...
+<git branch "branch name">
+
+9. git merge
+--> branch ne master branch ni andar merge karva mate
+<git merge "branch name">
+
+10.git push(pushing new changes)
+--> nava thayela changes ne branch ma push karva mate...
+<git push "url name" "branch name">
+
+11. git pull
+--> remotely store thayelo data locally system ma update karva mate ane some time remotely aapda development branch na changes ne main branch ma merge karva mate...
+<git pull>
+
+12. git stash
+--> jyare aapde karela changes ne aapde loose bhi na karva hoy ane tene kyak sachvine muki rakhva hoy ane pachhi jyare aapde jarur pade tyare pachha bhi lava hoy tyare aapde stash concept no upyog kariye etle aapda changes stash ma store thay jase commit thaya vagar etle aapda changes e git ni repo history ma store thase nay jethi aapde ekdum clean default project sathe pan kam kari sakiye... ane jyare bhi aapdne lage k have mare e changes back joyiye chhe tyare ene aapde "git stash pop" vade layi sakiye chhiye...
+<git stash>
+
+13.git stash pop
+--> stash ma nakhela changes ne back lava mate...
+<git stash pop>
+
+14.git cherry-pick
+--> jyare aapde commit karyu ane pachhi eni log history check karvi hoy tyare aapde git log command no....
+--> jyare perticular commit aapde koy branch ma moklvo hoy tyare aapde cherry-pick no upyog karisu...
+<git cherry-pick "hash code of perticular commit">
+
