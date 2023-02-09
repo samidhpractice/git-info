@@ -1,0 +1,178 @@
+.maindiv{
+    border: 1px solid black;
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+.namediv{
+    /* border: 1px solid black; */
+    height: 120px;
+    width: 780px;
+    background-color: rgb(78, 121, 136);
+    color: white;
+    padding: 20px;
+    line-height: 0.1;
+    display: inline-block;
+    
+}
+.namediv p{
+    padding-top: 5px;
+   margin-bottom: -5px;
+   line-height: 1.5;
+}
+.img{
+    float: right;
+}
+img{
+    height: 158px;
+    width: 175px;
+    /* background-color: aqua; */
+}
+
+.infodiv{
+    width: 999px;
+    height: 140px;
+    border: 1px solid black;
+    background-color: #15222b;
+}
+
+.infodiv1{
+    /* display: inline-block; */
+    float: left;
+    width: 450px;
+    padding: 15px;
+    padding-top: 3px;
+    /* border: 1px solid black; */
+    height: 120px;
+    color: white;
+}
+
+.infodiv2{
+   
+    
+    width: 800px;
+    /* border: 1px solid black; */
+    height: 118px;
+    color: white;
+    
+}
+
+.education{
+    /* border: 1px solid black; */
+    width: 492px;
+    height: 430px;
+    /* float: left; */
+    display: block;
+}
+.education h2{
+    color: rgb(38, 119, 90);
+    padding-left: 25px;
+    line-height: 0.5;
+}
+.education p{
+    color: black;
+    padding-left: 25px;
+    line-height: 0.5;
+}
+
+.work{
+    /* border: 1px solid black; */
+    width: 492px;
+    height: 265px;
+    /* float: left; */
+    display: block;
+}
+.work h2{
+    color: rgb(38, 119, 90);
+    padding-left: 25px;
+    line-height: 0.5;
+}
+.work p{
+    color: black;
+    padding-left: 25px;
+    line-height: 0.5;
+}
+
+.skills{
+    /* border: 1px solid black; */
+    width: 506px;
+    height: 180px;
+    /* display: inline-block; */
+    /* float: right; */
+    position: absolute;
+    top: 302px;
+    left: 493px;
+}
+.skills h2{
+    color: rgb(38, 119, 90);
+    padding-left: 25px;
+    line-height: 0.5;
+  
+}
+.skills ul{
+    list-style-type: none;
+    
+}
+.skills li{
+    display: inline-block;
+    padding: 12px;
+    margin: 3px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(238, 236, 236);
+}
+
+.personal{
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 506px;
+    position: absolute;
+    top: 483px;
+    left: 493px;
+    
+}
+.personal h2{
+    color: rgb(38, 119, 90);
+    padding-left: 25px;
+    line-height: 0.5;
+  
+}
+.personal h3{
+    color: black;
+    padding-left: 26px;
+    line-height: 0.5;
+}
+
+.interest{
+    /* border: 1px solid black; */
+    width: 506px;
+    height: 260px;
+    /* display: inline-block; */
+    /* float: right; */
+    position: absolute;
+    top: 734px;
+    left: 493px;
+}
+.interest h2{
+    color: rgb(38, 119, 90);
+    padding-left: 25px;
+    line-height: 0.5;
+  
+}
+.interest ul{
+    list-style-type: none;
+    
+}
+.interest li{
+    display: inline-block;
+    padding: 12px;
+    margin: 3px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    /* background-color: rgb(238, 236, 236); */
+}
+
+
+
+
