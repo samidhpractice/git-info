@@ -1,0 +1,28 @@
+.maindiv{
+    background-color: rgb(248, 228, 210);
+    /* height: 900px; */
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.child{
+    background-color: cadetblue;
+    border: 1px solid black;
+    width: 440px;
+    height: 300px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .child{
+        background-color: cadetblue;
+        border: 1px solid black;
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+    }
+    
+}

@@ -1,0 +1,77 @@
+.maindiv{
+    background-color: rgb(248, 228, 210);
+    /* height: 900px; */
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+.child{
+   
+    border: 1px solid black;
+     width: 440px;
+     height: 250px;
+     
+     margin: 30px;
+     /* margin-left: 40px; */
+}
+.school{
+    border: 1px solid black;
+    height: 47%;
+    display: flex;
+    justify-content: space-between;
+}
+.school img{
+    height: 110px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 220px;
+}
+.content{
+    border: 1px solid black;
+    /* width: 200px; */
+    padding: 20px;
+    
+}
+.college{
+    border: 1px solid black;
+    height: 40%;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+}
+.college img{
+    height: 60px;
+    width: 60px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.child p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.content p{
+    text-align: left;
+    line-height: 30px;
+    font-size: 10px;
+}
+
+
+@media screen and (max-width: 1300px) {
+   
+    .child{
+        border: 1px solid black;
+         width: 280px;
+         height: 250px;
+         
+         margin: 30px;
+         margin-left: 40px;
+    }
+
+
+
+}

@@ -1,0 +1,33 @@
+.maindiv{
+    background-color: coral;
+    height: auto;
+}
+img{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30vh;
+    width: 16vw;
+    /* gap: 20px; */
+}
+
+@media screen and (max-width: 770px) {
+    img{
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 50vh;
+        width: 40vw;
+        /* margin: 15px; */
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    img{
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 50vh;
+        width: 80vw;
+        margin: 15px;
+        margin-left: 30px;
+    }
+}
