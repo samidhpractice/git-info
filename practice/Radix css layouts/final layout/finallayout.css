@@ -1,0 +1,31 @@
+.container{
+    border: 1px solid black;
+    height: 95px;
+    display: grid;
+    grid-template-columns: 40% repeat(8,1fr);
+    /* background-color: gray; */
+   
+}
+
+.item{
+    /* border: 1px solid black; */
+    height: 90px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: small;
+    background-color: gray;
+    color: rgb(214, 214, 214);
+
+}
+
+#image img{
+  
+   height: 12vh;
+   width: 8vw;
+
+}
+
+
+
+

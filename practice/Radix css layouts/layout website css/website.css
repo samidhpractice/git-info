@@ -1,0 +1,491 @@
+body{
+   
+    margin: 0;
+    
+    
+}
+/*    CSS FOR SECOND HEADING      */
+.container{
+    /* border: 5px solid black; */
+    height: fit-content;    
+}
+.first-header{
+    /* border: 5px solid black; */
+    background-color: rgb(204, 203, 203);
+    height: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+    
+}
+.shoping{
+    /* padding-left: 10%; */
+    padding-left: 10%;
+}
+.signin{
+    /* padding-left: 50%; */
+    text-align: end;
+    width: 90%;
+}
+
+/*    CSS FOR SECOND HEADING      */
+.second-header{
+   /* border: 5px solid red; */
+   height: fit-content;
+   display: grid;
+   grid-template-columns: repeat(9,1fr);
+   grid-template-rows: repeat(2,80px);
+   padding-left: 5%;
+   padding-right: 5%;
+   
+}
+/* .item{
+    border: 5px solid black;
+} */
+#bluesymbol{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    /* border: 5px solid purple; */
+}
+#number{
+    grid-column-start: 8;
+    grid-column-end: 10;
+    /* text-align: center; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*        CSS FOR CONTENT-1       */
+.content1{
+    /* border: 1px solid green; */
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 5%;
+    padding-right: 5%; 
+    background-color: rgb(230, 225, 225);     
+    
+
+}
+
+ .item1{ 
+    /* border: 5px solid black; */
+    height: fit-content;
+}
+
+.subitem{
+    /* border: 2px solid  purple; */
+    height: fit-content;
+    line-height: 3px;
+}
+.subitem p{
+    /* border: 1px solid red; */
+    height: 120px;
+    line-height: 15px;
+}
+.subitem button{
+    background-color: orange;
+    color: beige;
+}
+#send button{
+    background-color: orange;
+    color: white
+}
+.item2{
+    /* border: 1px solid coral; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,60px);
+    height:fit-content;
+    
+}
+ /* .subitem2{
+    border: 5px solid black;
+} */
+#message{
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+}
+#send{
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+}
+
+/*        CSS FOR CONTENT-2(BLUE)       */
+ .content2{
+     /* border: 5px solid red; */
+     height: fit-content;
+     padding-left: 5%;
+    padding-right: 5%;  
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: rgb(126, 185, 240);
+ }
+ .item11{
+     /* border: 5px solid black; */
+     height: fit-content;
+     padding-top: 50px;
+     padding-left: 20px;
+     color: beige;
+     padding-bottom: 30px;
+     
+
+ }
+ .item12{
+     /* border: 1px solid green; */
+     /* height: 50px; */
+     padding-top: 50px;
+     padding-left: 20px;
+    
+    
+ }
+ .item12 button{
+     background-color: azure;
+     color: blue;
+     font-size: larger;
+     font-weight: 600;
+ }
+
+ /*        CSS FOR CONTENT-3( video )       */
+
+ .content3{
+     /* border: 5px solid green; */
+     padding-left: 5%;
+     padding-right: 5%; 
+     display: grid;
+     grid-template-columns: 60% 40%;
+     background-color: rgb(221, 221, 221);
+
+ }
+ .content3 img {
+     /* border: 5px solid black; */
+       height: 40vh;
+       width: 40vw;
+ }
+
+ /*        CSS FOR CONTENT-4( 3-images )       */
+
+ .content4{
+     /* border: 5px solid red; */
+     height: 750px ;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: repeat(2,1fr);
+     padding-left: 5%;
+    padding-right: 5%;
+  
+    
+     
+ }
+ .item31{
+     /* border: 5px solid black; */
+     margin: 5px;
+     
+     
+     
+ }
+.item31 img{
+    height: 40vh;
+    width: 29.5vw;
+   
+}
+ #item32{
+     grid-column-start: 1;
+     grid-column-end: 4;
+     height: 70px;
+     /* padding-left: 41%;
+     padding-top: 1%; */
+     position: relative;
+     
+     
+     
+ }
+ #item32 button{
+     font-size: 25px;
+     background-color: orange;
+     color: beige;
+     padding: 5px;
+     position: absolute;
+     top: 20%;
+     left: 40%;
+ }
+
+ /*        CSS FOR CONTENT-5 ( footer )       */
+
+ .content5{
+     /* border: 5px solid green; */
+     height: fit-content;
+     display: grid;
+     grid-template-columns: repeat(6,1fr);
+     padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(189, 189, 189);
+    color: white;
+    
+ }
+ /* .item41{
+     border: 5px solid black;
+ } */
+ 
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    /*       For Second Header media query         */
+    .second-header{
+        /* border: 5px solid red; */
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,60px);
+         padding-left: 5%;
+        padding-right: 5%;
+        
+     }
+     #bluesymbol{
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+        /* border: 5px solid purple; */
+    }
+    #bluesymbol img{
+        height: 55px;
+    }
+    #number{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        /* text-align: center; */
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        
+    }  
+
+    /*    FOR CONTENT-1 MEDIA QUERY*/
+    .content1{
+        /* border: 5px solid green; */
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+        padding-left: 5%;
+        padding-right: 5%;      
+        
+    
+    }
+    .item1{
+        /* border: 5px solid black; */
+        height: fit-content;
+    }
+      /*    FOR CONTENT-3(video ) MEDIA QUERY*/
+
+
+      /*    FOR CONTENT-4(3-images ) MEDIA QUERY*/
+      .content4{
+        /* border: 5px solid red; */
+        height: fit-content ;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        padding-left: 5%;
+       padding-right: 5%;
+       margin-top: 100px;
+       
+        
+    }
+    .item31{
+        /* border: 5px solid black; */
+        grid-column-start: 1;
+        grid-column-end: 2 ;
+        
+        
+    }
+   .item31 img{
+       height: 50vh;
+       width: 89vw;
+      
+   }
+    #item32{
+       
+        height: 70px;
+        position: relative;
+        
+        
+        
+    }
+    #item32 button{
+        font-size: 25px;
+        background-color: orange;
+        color: beige;
+        padding: 5px;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+    }
+
+    /*    FOR CONTENT-5(footer ) MEDIA QUERY*/
+
+    .content5{
+        /* border: 5px solid green; */
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr) ;
+        padding-left: 5%;
+       padding-right: 5%;
+       background-color: rgb(189, 189, 189);
+       color: white;
+       
+    }
+    /* .item41{
+        border: 5px solid black;
+    }
+     */
+   
+   
+
+
+        
+
+    
+}
+
+@media screen and (max-width: 400px) {
+
+     /*       For Second Header media query         */
+    .second-header{
+        /* border: 5px solid red; */
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(6,50px);
+         padding-left: 5%;
+        padding-right: 5%;
+        
+     }
+     #bluesymbol{
+        grid-column-start: 1;
+        grid-column-end: 2;
+     }
+     #number{
+        grid-column-start: 2;
+        grid-column-end: 3;
+     }
+    #bluesymbol img{
+        height: 45px;
+    }
+     #custom{
+         grid-column-start: 1;
+         grid-column-end: 3;
+     }
+
+     /*    FOR CONTENT-1 MEDIA QUERY*/
+    .content1{
+        /* border: 5px solid green; */
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+        padding-left: 5%;
+        padding-right: 5%;      
+        
+    
+    }
+    .item1{
+        /* border: 5px solid black; */
+        height: fit-content;
+    }
+    .item2{
+        border: 5px solid coral;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,30px);
+        height:fit-content;
+        
+    }
+    #message{
+        grid-column-start: 1 ;
+        grid-column-end: 2 ;
+    }
+    #send{
+        grid-column-start: 1 ;
+        grid-column-end: 2;
+    }
+
+     /*    FOR CONTENT-2 MEDIA QUERY*/
+     .content2{
+        /* border: 1px solid red; */
+        height: fit-content;
+        padding-left: 5%;
+       padding-right: 5%;  
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: repeat(2,1fr);
+       background-color: rgb(126, 185, 240);
+      
+       
+       
+    }
+    .item11{
+        /* border: 1px solid black; */
+        height: fit-content;
+        padding-top: 50px;
+        padding-left: 20px;
+        color: beige;
+        padding-bottom: 30px;
+       
+        
+   
+    }
+     .item12{
+        /* border: 1px solid green; */
+        height: fit-content;
+        padding-top: 50px;
+        padding-left: 20px;
+     
+       
+    } 
+    /*    FOR CONTENT-3 (video) QUERY*/
+
+    .content3{
+        /* border: 5px solid green; */
+        padding-left: 5%;
+        padding-right: 5%; 
+        display: grid;
+        grid-template-columns: 1fr;
+   
+    }
+    .content3 img {
+        /* border: 10px solid black; */
+          height: 40vh;
+          width: 40vw;
+    }
+
+    /*    FOR CONTENT-5 (footer) QUERY*/
+    .content5{
+        /* border: 5px solid green; */
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr) ;
+        padding-left: 5%;
+       padding-right: 5%;
+       background-color: rgb(189, 189, 189);
+       color: white;
+       
+    }
+    /* .item41{
+        border: 5px solid black;
+    } */
+ 
+
+
+    
+}
